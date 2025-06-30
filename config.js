@@ -9,7 +9,7 @@ global.config = {
     bot: {
         name: "GAXTAWU", // Nama bot
         prefix: /^[°•π÷×¶∆£¢€¥®™+✓_=|/~!?@#%^&.©^]/i, // Karakter awalan perintah yang diizinkan
-        phoneNumber: "", // Nomor telepon bot (Tidak perlu diisi jika menggunakan QR code)
+        phoneNumber: "6283183778523", // Nomor telepon bot (Tidak perlu diisi jika menggunakan QR code)
         thumbnail: "https://repository-images.githubusercontent.com/753096396/84e76ef0-ba19-4c87-8ec2-ea803b097479", // Gambar thumbnail bot
         groupJid: "", // JID untuk group bot (Opsional, jika tidak menggunakan requireBotGroupMembership)
         newsletterJid: "120363416372653441@newsletter", // JID untuk saluran bot
@@ -72,9 +72,9 @@ global.config = {
 
     // Informasi owner bot
     owner: {
-        name: "", // Nama owner bot
+        name: "jezzxyz", // Nama owner bot
         organization: "", // Nama organisasi owner bot
-        id: "", // Nomor telepon owner bot
+        id: "6281226769432", // Nomor telepon owner bot
         co: [""] // Nomor co-owner bot
     },
 
@@ -105,7 +105,7 @@ global.config = {
         unavailableAtNight: false, // Bot tidak tersedia pada malam hari, dari jam 12 malam sampai 6 pagi (Waktu akan disesuaikan menurut timeZone)
         uploaderHost: "Cloudku", // Host uploader untuk menyimpan media (Tersedia: Catbox, Cloudku, FastUrl, Litterbox, Pomf, Quax, Ryzumi, Uguu, Videy)
         useCoin: true, // Pakai koin
-        usePairingCode: false, // Pakai kode pairing untuk koneksi
+        usePairingCode: true, // Pakai kode pairing untuk koneksi
         customPairingCode: "UMBR4L15", // Kode pairing kustom untuk koneksi (Opsional, jika menggunakan QR code, jika kosong kode pairing akan random)
         useServer: false // Jalankan bot dengan server
     }
